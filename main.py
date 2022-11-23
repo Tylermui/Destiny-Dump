@@ -65,6 +65,13 @@ def getWeaponStats():
         tds = row.find_all('td')
         tempDict[tds[0].text.strip()] = tds[-1].text.strip()
 
+    perksArray = []
+    for img in soup.find_all("img", {"class": "mod"}):
+      perksArray.append(img['alt'])
+    
+    tempDict['Perks'] = perksArray
+    perksArray = []
+
     writeToFileArray.append(tempDict)
     tempDict = {}
     
