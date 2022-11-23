@@ -1,4 +1,4 @@
-,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
+weapon_id,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
 36,AGER'S SCEPTER,Exotic,Any,Kinetic,Trace Rifle,6.0,69.0,52.0,55.0,100.0,44.0,15.0,1000.0,97.0,79.0,16.0,96.0
 66,COLDHEART,Exotic,Any,Energy,Trace Rifle,6.0,60.0,35.0,30.0,100.0,60.0,14.0,1000.0,95.0,60.0,16.0,90.0
 67,DIVINITY,Exotic,Any,Energy,Trace Rifle,6.0,67.0,51.0,45.0,100.0,50.0,17.0,1000.0,94.0,76.0,16.0,100.0

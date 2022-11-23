@@ -1,4 +1,4 @@
-,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Charge Time,Magazine,Stability,Zoom,Recoil,Velocity
+weapon_id,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Charge Time,Magazine,Stability,Zoom,Recoil,Velocity
 29,CRYOSTHESIA 77K,Exotic,Any,Kinetic,Sidearm,51.0,72.0,37.0,46.0,93.0,50.0,28.0,260.0,,12.0,41.0,12.0,92.0,
 30,FORERUNNER,Exotic,Any,Kinetic,Sidearm,35.0,100.0,60.0,80.0,60.0,56.0,30.0,200.0,,15.0,70.0,20.0,96.0,
 31,RAT KING,Exotic,Any,Kinetic,Sidearm,49.0,30.0,40.0,40.0,60.0,80.0,31.0,300.0,,15.0,40.0,12.0,80.0,

@@ -1,4 +1,4 @@
-,Name,Rarity,Class,Element,Type,Impact,Range,Aim Assistance,Inventory Size,Airborne Effectiveness,Stability,Zoom,Recoil,Swing Speed,Guard Efficiency,Guard Resistance,Charge Rate,Ammo Capacity
+weapon_id,Name,Rarity,Class,Element,Type,Impact,Range,Aim Assistance,Inventory Size,Airborne Effectiveness,Stability,Zoom,Recoil,Swing Speed,Guard Efficiency,Guard Resistance,Charge Rate,Ammo Capacity
 95,BLACK TALON,Exotic,Any,Power,Sword,60.0,40.0,,0.0,0.0,0.0,0.0,,40.0,0.0,0.0,75.0,60.0
 96,HEARTSHADOW,Exotic,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,35.0,50.0
 97,THE LAMENT,Exotic,Any,Power,Sword,74.0,40.0,,60.0,0.0,50.0,0.0,,40.0,60.0,50.0,20.0,62.0

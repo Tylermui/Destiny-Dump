@@ -1,4 +1,4 @@
-,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
+weapon_id,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
 11,ACE OF SPADES,Exotic,Any,Kinetic,Hand Cannon,84.0,75.0,40.0,42.0,70.0,56.0,14.0,140.0,13.0,40.0,14.0,100.0
 12,CRIMSON,Exotic,Any,Kinetic,Hand Cannon,92.0,55.0,45.0,60.0,75.0,100.0,15.0,415.0,14.0,80.0,14.0,55.0
 13,HAWKMOON,Exotic,Any,Kinetic,Hand Cannon,84.0,52.0,71.0,59.0,93.0,52.0,26.0,140.0,8.0,63.0,14.0,96.0

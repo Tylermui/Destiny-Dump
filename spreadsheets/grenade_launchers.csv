@@ -1,4 +1,4 @@
-,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil,Velocity,Blast Radius
+weapon_id,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil,Velocity,Blast Radius
 10,WITHERHOARD,Exotic,Any,Kinetic,Grenade Launcher,60.0,,48.0,33.0,84.0,46.0,6.0,90.0,6.0,63.0,12.0,96.0,12.0,
 47,DEAD MESSENGER,Exotic,Any,Energy,Grenade Launcher,,,40.0,50.0,78.0,70.0,6.0,72.0,1.0,27.0,13.0,73.0,73.0,100.0
 48,FIGHTING LION,Exotic,Any,Energy,Grenade Launcher,,,80.0,0.0,80.0,0.0,12.0,90.0,1.0,50.0,13.0,60.0,40.0,100.0

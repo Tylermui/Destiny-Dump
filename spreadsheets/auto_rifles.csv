@@ -1,4 +1,4 @@
-,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
+weapon_id,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
 3,CERBERUS+1,Exotic,Any,Kinetic,Auto Rifle,33.0,0.0,32.0,35.0,60.0,59.0,16.0,360.0,31.0,25.0,16.0,86.0
 4,MONTE CARLO,Exotic,Any,Kinetic,Auto Rifle,21.0,45.0,60.0,79.0,50.0,52.0,29.0,600.0,43.0,55.0,15.0,80.0
 5,QUICKSILVER STORM,Exotic,Any,Kinetic,Auto Rifle,18.0,40.0,48.0,54.0,83.0,59.0,26.0,720.0,51.0,85.0,16.0,88.0

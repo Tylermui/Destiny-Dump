@@ -1,4 +1,4 @@
-,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
+weapon_id,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
 80,GRAND OVERTURE,Exotic,Any,Power,Machine Gun,53.0,85.0,36.0,60.0,60.0,45.0,11.0,100.0,70.0,80.0,17.0,59.0
 81,HEIR APPARENT,Exotic,Any,Power,Machine Gun,39.0,60.0,58.0,50.0,90.0,50.0,9.0,900.0,115.0,53.0,0.0,75.0
 82,THUNDERLORD,Exotic,Any,Power,Machine Gun,41.0,60.0,60.0,68.0,90.0,30.0,26.0,450.0,62.0,50.0,15.0,70.0
