@@ -1,0 +1,60 @@
+,Name,Rarity,Class,Element,Type,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil,Velocity,Blast Radius
+84,DEATHBRINGER,Exotic,Any,Power,Rocket Launcher,66.0,33.0,72.0,36.0,3.0,15.0,1.0,58.0,20.0,58.0,40.0,90.0
+85,EYES OF TOMORROW,Exotic,Any,Power,Rocket Launcher,44.0,46.0,68.0,20.0,7.0,20.0,1.0,72.0,20.0,75.0,52.0,50.0
+86,GJALLARHORN,Exotic,Any,Power,Rocket Launcher,66.0,37.0,76.0,50.0,6.0,15.0,1.0,64.0,20.0,49.0,45.0,90.0
+87,THE WARDCLIFF COIL,Exotic,Any,Power,Rocket Launcher,80.0,50.0,80.0,0.0,1.0,60.0,1.0,50.0,15.0,60.0,100.0,10.0
+88,TRUTH,Exotic,Any,Power,Rocket Launcher,65.0,39.0,73.0,40.0,9.0,15.0,1.0,62.0,20.0,60.0,42.0,90.0
+89,TWO-TAILED FOX,Exotic,Any,Power,Rocket Launcher,47.0,29.0,67.0,30.0,12.0,40.0,1.0,50.0,20.0,61.0,50.0,30.0
+824,APEX PREDATOR,Legendary,Any,Power,Rocket Launcher,44.0,44.0,68.0,33.0,3.0,20.0,1.0,43.0,20.0,61.0,49.0,50.0
+825,ASCENDANCY,Legendary,Any,Power,Rocket Launcher,41.0,27.0,61.0,35.0,3.0,15.0,1.0,42.0,20.0,70.0,51.0,30.0
+826,BAD OMENS,Legendary,Any,Power,Rocket Launcher,20.0,61.0,34.0,35.0,3.0,25.0,1.0,27.0,20.0,76.0,72.0,20.0
+827,BELLOWING GIANT,Legendary,Any,Power,Rocket Launcher,44.0,45.0,63.0,48.0,3.0,20.0,1.0,49.0,20.0,70.0,59.0,50.0
+828,BLUE SHIFT,Legendary,Any,Power,Rocket Launcher,63.0,39.0,69.0,30.0,3.0,15.0,1.0,58.0,20.0,40.0,43.0,90.0
+829,BRAYTECH OSPREY,Legendary,Any,Power,Rocket Launcher,64.0,34.0,69.0,38.0,3.0,15.0,1.0,55.0,20.0,59.0,41.0,90.0
+830,BROADSWORD LAUNCHER,Legendary,Any,Power,Rocket Launcher,40.0,44.0,59.0,48.0,3.0,20.0,1.0,41.0,20.0,48.0,48.0,50.0
+831,BUMP IN THE NIGHT,Legendary,Any,Power,Rocket Launcher,19.0,58.0,33.0,40.0,7.0,25.0,1.0,23.0,20.0,74.0,69.0,20.0
+832,CLASSICAL-42,Legendary,Any,Power,Rocket Launcher,38.0,38.0,61.0,29.0,3.0,20.0,1.0,43.0,20.0,51.0,52.0,50.0
+833,CODE DUELLO,Legendary,Any,Power,Rocket Launcher,69.0,35.0,62.0,42.0,3.0,15.0,1.0,58.0,20.0,52.0,42.0,90.0
+834,COUNTESS SA/2,Legendary,Any,Power,Rocket Launcher,41.0,38.0,57.0,31.0,3.0,20.0,1.0,43.0,20.0,74.0,48.0,50.0
+835,CURTAIN CALL,Legendary,Any,Power,Rocket Launcher,18.0,60.0,27.0,34.0,3.0,25.0,1.0,23.0,20.0,67.0,68.0,10.0
+836,HERETIC,Legendary,Any,Power,Rocket Launcher,23.0,58.0,29.0,32.0,3.0,25.0,1.0,26.0,20.0,68.0,79.0,20.0
+837,HEZEN VENGEANCE,Legendary,Any,Power,Rocket Launcher,23.0,60.0,35.0,50.0,3.0,25.0,1.0,29.0,20.0,65.0,79.0,20.0
+838,HEZEN VENGEANCE (TIMELOST),Legendary,Any,Power,Rocket Launcher,23.0,60.0,35.0,50.0,3.0,25.0,1.0,29.0,20.0,65.0,79.0,20.0
+839,HOOSEGOW,Legendary,Any,Power,Rocket Launcher,38.0,44.0,63.0,25.0,3.0,20.0,1.0,41.0,20.0,80.0,53.0,50.0
+840,HOOSEGOW,Legendary,Any,Power,Rocket Launcher,38.0,44.0,63.0,25.0,3.0,20.0,1.0,41.0,20.0,80.0,53.0,50.0
+841,HOOSEGOW XE5837,Legendary,Any,Power,Rocket Launcher,38.0,44.0,63.0,25.0,3.0,20.0,1.0,41.0,20.0,80.0,53.0,50.0
+842,MORRIGAN-D,Legendary,Any,Power,Rocket Launcher,33.0,29.0,39.0,47.0,3.0,15.0,1.0,40.0,20.0,76.0,59.0,30.0
+843,MOS EPOCH III,Legendary,Any,Power,Rocket Launcher,18.0,52.0,32.0,40.0,3.0,25.0,1.0,21.0,20.0,54.0,73.0,10.0
+844,MOS EPOCH III,Legendary,Any,Power,Rocket Launcher,18.0,52.0,32.0,40.0,3.0,25.0,1.0,21.0,20.0,54.0,73.0,10.0
+845,PALMYRA-B,Legendary,Any,Power,Rocket Launcher,43.0,22.0,62.0,42.0,5.0,15.0,1.0,45.0,20.0,65.0,49.0,30.0
+846,PENTATONIC-48,Legendary,Any,Power,Rocket Launcher,41.0,42.0,58.0,28.0,3.0,20.0,1.0,40.0,20.0,72.0,53.0,50.0
+847,PIT LAUNCHER,Legendary,Any,Power,Rocket Launcher,17.0,58.0,28.0,33.0,3.0,25.0,1.0,24.0,20.0,59.0,68.0,10.0
+848,PYROCLASTIC FLOW,Legendary,Any,Power,Rocket Launcher,41.0,24.0,59.0,42.0,3.0,15.0,1.0,44.0,20.0,63.0,57.0,30.0
+849,RED HERRING,Legendary,Any,Power,Rocket Launcher,40.0,42.0,62.0,36.0,3.0,20.0,1.0,42.0,20.0,66.0,53.0,50.0
+850,ROAR OF THE BEAR,Legendary,Any,Power,Rocket Launcher,65.0,34.0,71.0,38.0,3.0,15.0,1.0,57.0,20.0,45.0,37.0,90.0
+851,ROAR OF THE BEAR,Legendary,Any,Power,Rocket Launcher,65.0,34.0,71.0,38.0,7.0,15.0,1.0,57.0,20.0,45.0,37.0,90.0
+852,ROYAL ENTRY,Legendary,Any,Power,Rocket Launcher,42.0,29.0,65.0,45.0,3.0,15.0,1.0,49.0,20.0,75.0,41.0,30.0
+853,SCIPIO-D,Legendary,Any,Power,Rocket Launcher,62.0,32.0,68.0,30.0,3.0,15.0,1.0,56.0,20.0,55.0,42.0,90.0
+854,SHINING SPHERE,Legendary,Any,Power,Rocket Launcher,39.0,39.0,58.0,38.0,3.0,20.0,1.0,39.0,20.0,60.0,49.0,50.0
+855,SHINING SPHERE,Legendary,Any,Power,Rocket Launcher,39.0,39.0,58.0,38.0,3.0,20.0,1.0,39.0,20.0,60.0,49.0,50.0
+856,SINS OF THE PAST,Legendary,Any,Power,Rocket Launcher,67.0,36.0,74.0,38.0,3.0,15.0,1.0,59.0,20.0,57.0,44.0,90.0
+857,SLEEPLESS,Legendary,Any,Power,Rocket Launcher,66.0,33.0,72.0,36.0,3.0,15.0,1.0,58.0,20.0,58.0,40.0,90.0
+858,SUBZERO SALVO,Legendary,Any,Power,Rocket Launcher,41.0,23.0,61.0,34.0,3.0,15.0,1.0,39.0,20.0,79.0,48.0,30.0
+859,THE BUTTON,Legendary,Any,Power,Rocket Launcher,38.0,40.0,62.0,36.0,3.0,20.0,1.0,38.0,20.0,75.0,52.0,50.0
+860,THE HOTHEAD,Legendary,Any,Power,Rocket Launcher,47.0,45.0,67.0,34.0,8.0,20.0,1.0,40.0,20.0,75.0,57.0,50.0
+861,THE HOTHEAD (ADEPT),Legendary,Any,Power,Rocket Launcher,47.0,45.0,67.0,34.0,8.0,20.0,1.0,40.0,20.0,75.0,57.0,50.0
+862,TIEBREAKER,Legendary,Any,Power,Rocket Launcher,18.0,55.0,31.0,31.0,3.0,25.0,1.0,22.0,20.0,78.0,73.0,10.0
+863,TOMORROW'S ANSWER,Legendary,Any,Power,Rocket Launcher,67.0,35.0,73.0,37.0,7.0,15.0,1.0,60.0,20.0,55.0,45.0,90.0
+864,TOMORROW'S ANSWER (ADEPT),Legendary,Any,Power,Rocket Launcher,67.0,35.0,73.0,37.0,7.0,15.0,1.0,60.0,20.0,55.0,45.0,90.0
+865,ZENOBIA-D,Legendary,Any,Power,Rocket Launcher,39.0,20.0,61.0,38.0,3.0,15.0,1.0,41.0,20.0,45.0,57.0,30.0
+866,ZENOBIA-D,Legendary,Any,Power,Rocket Launcher,39.0,20.0,61.0,38.0,3.0,15.0,1.0,41.0,20.0,45.0,57.0,30.0
+980,CUP-BEARER SA/2,Rare,Any,Power,Rocket Launcher,37.0,38.0,55.0,26.0,,20.0,1.0,36.0,20.0,53.0,42.0,50.0
+981,CUP-BEARER SA/2,Rare,Any,Power,Rocket Launcher,37.0,38.0,55.0,26.0,,20.0,1.0,36.0,20.0,53.0,42.0,50.0
+982,REGINAR-B,Rare,Any,Power,Rocket Launcher,14.0,36.0,25.0,25.0,,10.0,1.0,36.0,20.0,49.0,56.0,30.0
+983,REGINAR-B,Rare,Any,Power,Rocket Launcher,14.0,36.0,25.0,25.0,,10.0,1.0,36.0,20.0,49.0,56.0,30.0
+984,WEAVER-C,Rare,Any,Power,Rocket Launcher,33.0,29.0,39.0,47.0,,15.0,1.0,40.0,20.0,76.0,59.0,30.0
+1024,BUTLER RS/2,Common,Any,Power,Rocket Launcher,58.0,36.0,63.0,16.0,,15.0,1.0,48.0,20.0,45.0,33.0,90.0
+1145,HEZEN VENGEANCE,Legendary,Any,Power,Rocket Launcher,23.0,60.0,35.0,50.0,,25.0,1.0,29.0,20.0,65.0,79.0,20.0
+1146,HEZEN VENGEANCE (TIMELOST),Legendary,Any,Power,Rocket Launcher,23.0,60.0,35.0,50.0,,25.0,1.0,29.0,20.0,65.0,79.0,20.0
+1147,SUBZERO SALVO,Legendary,Any,Power,Rocket Launcher,41.0,23.0,61.0,34.0,,15.0,1.0,39.0,20.0,79.0,48.0,30.0
+1148,SUBZERO SALVO,Legendary,Any,Power,Rocket Launcher,41.0,23.0,61.0,34.0,,15.0,1.0,39.0,20.0,79.0,48.0,30.0

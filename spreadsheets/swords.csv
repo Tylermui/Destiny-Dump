@@ -1,0 +1,49 @@
+,Name,Rarity,Class,Element,Type,Impact,Range,Aim Assistance,Inventory Size,Airborne Effectiveness,Stability,Zoom,Recoil,Swing Speed,Guard Efficiency,Guard Resistance,Charge Rate,Ammo Capacity
+95,BLACK TALON,Exotic,Any,Power,Sword,60.0,40.0,,0.0,0.0,0.0,0.0,,40.0,0.0,0.0,75.0,60.0
+96,HEARTSHADOW,Exotic,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,35.0,50.0
+97,THE LAMENT,Exotic,Any,Power,Sword,74.0,40.0,,60.0,0.0,50.0,0.0,,40.0,60.0,50.0,20.0,62.0
+98,WORLDLINE ZERO,Exotic,Any,Power,Sword,60.0,40.0,,0.0,0.0,0.0,0.0,,40.0,0.0,0.0,20.0,60.0
+99,CROWN-SPLITTER,Legendary,Titan,Power,Sword,72.0,60.0,,,,,0.0,,0.0,0.0,0.0,20.0,48.0
+100,THRONE-CLEAVER,Legendary,Titan,Power,Sword,72.0,60.0,,,,,0.0,,0.0,,,20.0,48.0
+101,GOLDTUSK,Legendary,Hunter,Power,Sword,60.0,20.0,,,,,0.0,,80.0,,,20.0,74.0
+102,QUICKFANG,Legendary,Hunter,Power,Sword,60.0,20.0,,0.0,,0.0,0.0,,80.0,0.0,0.0,20.0,74.0
+103,QUICKFANG,Legendary,Hunter,Power,Sword,60.0,20.0,,,,,0.0,,80.0,0.0,0.0,20.0,74.0
+104,DEATH'S RAZOR,Legendary,Warlock,Power,Sword,60.0,50.0,,,,,0.0,,40.0,,,20.0,62.0
+105,ETERNITY'S EDGE,Legendary,Warlock,Power,Sword,60.0,50.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,62.0
+106,ETERNITY'S EDGE,Legendary,Warlock,Power,Sword,60.0,50.0,,,,,0.0,,40.0,0.0,0.0,20.0,62.0
+867,ABIDE THE RETURN,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,,,20.0,60.0
+868,BEQUEST,Legendary,Any,Power,Sword,70.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,70.0,60.0
+869,COMPLEX SOLUTION,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,61.0
+870,DOUBLE-EDGED ANSWER,Legendary,Any,Power,Sword,60.0,60.0,,,,,0.0,,40.0,0.0,0.0,20.0,58.0
+871,FALLING GUILLOTINE,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,59.0
+872,FUTURE SAFE 10,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,60.0
+873,HAGAKURE,Legendary,Any,Power,Sword,60.0,50.0,,,,,0.0,,40.0,0.0,0.0,20.0,60.0
+874,HALF-TRUTHS,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,61.0
+875,HERO OF AGES,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,25.0,59.0
+876,HONOR'S EDGE,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,62.0
+877,HONOR'S EDGE,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,62.0
+878,IT STARED BACK,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,60.0
+879,JUST IN CASE,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,,,20.0,62.0
+880,NEGATIVE SPACE,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,60.0
+881,NEGATIVE SPACE,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,60.0
+882,NIGHT TERROR,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,60.0
+883,RAZOR'S EDGE,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,59.0
+884,SOLA'S SCAR,Legendary,Any,Power,Sword,60.0,40.0,,0.0,0.0,0.0,0.0,,40.0,0.0,0.0,50.0,59.0
+885,SOLA'S SCAR (ADEPT),Legendary,Any,Power,Sword,60.0,40.0,,0.0,0.0,0.0,0.0,,40.0,0.0,0.0,50.0,59.0
+886,STEEL SYBIL Z-14,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,59.0
+887,STEEL SYBIL Z-14,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,,,20.0,59.0
+888,STRYKER'S SURE-HAND,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,,,20.0,60.0
+889,TEMPTATION'S HOOK,Legendary,Any,Power,Sword,46.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,50.0,55.0
+890,THE OTHER HALF,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,61.0
+891,TRAITOR'S FATE,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,62.0
+892,UNSPOKEN PROMISE,Legendary,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,60.0
+893,ZEPHYR,Legendary,Any,Power,Sword,60.0,50.0,,,,,0.0,,40.0,0.0,0.0,20.0,60.0
+894,ZEPHYR,Legendary,Any,Power,Sword,60.0,40.0,,0.0,,0.0,0.0,,40.0,0.0,0.0,20.0,60.0
+985,FUTURE IMPERFECT,Rare,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,59.0
+986,FUTURE IMPERFECT,Rare,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,59.0
+987,REST FOR THE WICKED,Rare,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,58.0
+988,REST FOR THE WICKED,Rare,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,58.0
+1025,NASREDDIN,Common,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,56.0
+1042,TRAITOR'S FATE,Basic,Any,Power,Sword,60.0,40.0,,,,,0.0,,40.0,0.0,0.0,20.0,62.0
+1149,BEQUEST,Legendary,Any,Power,Sword,70.0,40.0,0.0,,,,0.0,0.0,40.0,50.0,50.0,,60.0
+1150,NIGHT TERROR,Legendary,Any,Power,Sword,62.0,40.0,,,,,0.0,,40.0,50.0,52.0,,60.0

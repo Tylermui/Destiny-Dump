@@ -1,0 +1,104 @@
+,Name,Rarity,Class,Element,Type,Impact,Range,Handling,Reload Speed,Aim Assistance,Inventory Size,Airborne Effectiveness,Rounds Per Minute,Magazine,Stability,Zoom,Recoil
+3,CERBERUS+1,Exotic,Any,Kinetic,Auto Rifle,33.0,0.0,32.0,35.0,60.0,59.0,16.0,360.0,31.0,25.0,16.0,86.0
+4,MONTE CARLO,Exotic,Any,Kinetic,Auto Rifle,21.0,45.0,60.0,79.0,50.0,52.0,29.0,600.0,43.0,55.0,15.0,80.0
+5,QUICKSILVER STORM,Exotic,Any,Kinetic,Auto Rifle,18.0,40.0,48.0,54.0,83.0,59.0,26.0,720.0,51.0,85.0,16.0,88.0
+6,SUROS REGIME,Exotic,Any,Kinetic,Auto Rifle,21.0,45.0,64.0,63.0,68.0,0.0,31.0,600.0,25.0,43.0,16.0,50.0
+7,SWEET BUSINESS,Exotic,Any,Kinetic,Auto Rifle,18.0,30.0,0.0,0.0,80.0,80.0,32.0,360.0,45.0,40.0,16.0,100.0
+37,HARD LIGHT,Exotic,Any,Energy,Auto Rifle,21.0,40.0,72.0,64.0,100.0,40.0,31.0,600.0,49.0,65.0,16.0,100.0
+38,TOMMY'S MATCHBOOK,Exotic,Any,Energy,Auto Rifle,18.0,43.0,58.0,20.0,81.0,56.0,26.0,720.0,72.0,44.0,16.0,64.0
+107,BRAYTECH WEREWOLF,Legendary,Any,Kinetic,Auto Rifle,29.0,69.0,39.0,42.0,47.0,55.0,15.0,450.0,34.0,41.0,16.0,74.0
+108,BRAYTECH WEREWOLF,Legendary,Any,Kinetic,Auto Rifle,29.0,69.0,39.0,42.0,47.0,55.0,15.0,450.0,34.0,41.0,16.0,74.0
+109,BRAYTECH WINTER WOLF,Legendary,Any,Kinetic,Auto Rifle,29.0,69.0,39.0,42.0,47.0,55.0,10.0,450.0,34.0,41.0,16.0,74.0
+110,BREAKNECK,Legendary,Any,Kinetic,Auto Rifle,29.0,64.0,37.0,46.0,44.0,45.0,10.0,450.0,34.0,45.0,16.0,80.0
+111,CHROMA RUSH,Legendary,Any,Kinetic,Auto Rifle,18.0,25.0,35.0,47.0,80.0,54.0,10.0,720.0,51.0,56.0,16.0,45.0
+112,DUTY BOUND,Legendary,Any,Kinetic,Auto Rifle,21.0,36.0,57.0,49.0,73.0,58.0,10.0,600.0,41.0,39.0,16.0,60.0
+113,DUTY BOUND,Legendary,Any,Kinetic,Auto Rifle,21.0,36.0,63.0,49.0,73.0,58.0,18.0,600.0,41.0,39.0,18.0,60.0
+114,DUTY BOUND (ADEPT),Legendary,Any,Kinetic,Auto Rifle,21.0,36.0,63.0,49.0,73.0,58.0,18.0,600.0,41.0,39.0,18.0,60.0
+115,ETHER DOCTOR,Legendary,Any,Kinetic,Auto Rifle,21.0,38.0,61.0,52.0,61.0,46.0,10.0,600.0,41.0,40.0,16.0,47.0
+116,FALSE PROMISES,Legendary,Any,Kinetic,Auto Rifle,33.0,72.0,35.0,38.0,52.0,54.0,10.0,360.0,32.0,29.0,20.0,86.0
+117,FIREFRIGHT,Legendary,Any,Kinetic,Auto Rifle,29.0,58.0,41.0,44.0,38.0,54.0,17.0,450.0,34.0,41.0,17.0,61.0
+118,FOREGONE CONCLUSION,Legendary,Any,Kinetic,Auto Rifle,18.0,22.0,41.0,50.0,76.0,51.0,10.0,720.0,51.0,49.0,16.0,42.0
+119,GAHLRAN'S RIGHT HAND,Legendary,Any,Kinetic,Auto Rifle,33.0,81.0,39.0,32.0,56.0,51.0,10.0,360.0,32.0,17.0,16.0,85.0
+120,GHOST PRIMUS,Legendary,Any,Kinetic,Auto Rifle,21.0,48.0,60.0,50.0,70.0,40.0,10.0,600.0,44.0,35.0,16.0,60.0
+121,GUIDING STAR,Legendary,Any,Kinetic,Auto Rifle,18.0,30.0,33.0,41.0,66.0,60.0,10.0,720.0,52.0,41.0,16.0,40.0
+122,HALFDAN-D,Legendary,Any,Kinetic,Auto Rifle,33.0,80.0,39.0,28.0,60.0,50.0,10.0,360.0,33.0,20.0,16.0,70.0
+123,HALFDAN-D,Legendary,Any,Kinetic,Auto Rifle,33.0,80.0,39.0,28.0,60.0,50.0,10.0,360.0,33.0,20.0,16.0,70.0
+124,HAZARD OF THE CAST,Legendary,Any,Kinetic,Auto Rifle,29.0,64.0,44.0,43.0,44.0,49.0,10.0,450.0,33.0,41.0,16.0,69.0
+125,HEROD-C,Legendary,Any,Kinetic,Auto Rifle,33.0,79.0,30.0,38.0,61.0,51.0,22.0,360.0,33.0,33.0,19.0,76.0
+126,HORROR STORY,Legendary,Any,Kinetic,Auto Rifle,29.0,57.0,37.0,41.0,35.0,47.0,10.0,450.0,32.0,40.0,16.0,73.0
+127,KRAIT,Legendary,Any,Kinetic,Auto Rifle,18.0,33.0,44.0,53.0,78.0,45.0,15.0,720.0,53.0,58.0,16.0,56.0
+128,LOQUITOR IV,Legendary,Any,Kinetic,Auto Rifle,33.0,76.0,34.0,34.0,55.0,51.0,10.0,360.0,32.0,16.0,16.0,76.0
+129,ORIGIN STORY,Legendary,Any,Kinetic,Auto Rifle,29.0,57.0,37.0,41.0,35.0,47.0,10.0,450.0,32.0,40.0,16.0,73.0
+130,ORIMUND'S ANVIL,Legendary,Any,Kinetic,Auto Rifle,29.0,60.0,44.0,39.0,40.0,58.0,10.0,450.0,33.0,46.0,16.0,75.0
+131,PLUPERFECT,Legendary,Any,Kinetic,Auto Rifle,33.0,72.0,34.0,34.0,54.0,50.0,10.0,360.0,31.0,16.0,16.0,89.0
+132,SCATHELOCKE,Legendary,Any,Kinetic,Auto Rifle,21.0,44.0,62.0,54.0,65.0,50.0,10.0,600.0,42.0,39.0,16.0,60.0
+133,SCATHELOCKE,Legendary,Any,Kinetic,Auto Rifle,21.0,44.0,62.0,54.0,65.0,50.0,10.0,600.0,42.0,39.0,20.0,60.0
+134,SEVENTH SERAPH CARBINE,Legendary,Any,Kinetic,Auto Rifle,29.0,58.0,39.0,41.0,34.0,51.0,10.0,450.0,34.0,39.0,16.0,74.0
+135,STEELFEATHER REPEATER,Legendary,Any,Kinetic,Auto Rifle,18.0,24.0,38.0,50.0,72.0,53.0,10.0,720.0,49.0,31.0,16.0,57.0
+136,THE DOUBT,Legendary,Any,Kinetic,Auto Rifle,21.0,39.0,66.0,58.0,65.0,53.0,10.0,600.0,42.0,35.0,16.0,52.0
+137,THE FORWARD PATH,Legendary,Any,Kinetic,Auto Rifle,21.0,45.0,69.0,60.0,71.0,60.0,10.0,600.0,43.0,42.0,16.0,60.0
+138,THE FORWARD PATH,Legendary,Any,Kinetic,Auto Rifle,21.0,45.0,69.0,60.0,71.0,60.0,10.0,600.0,43.0,42.0,16.0,60.0
+139,THE LAST BREATH,Legendary,Any,Kinetic,Auto Rifle,21.0,42.0,67.0,51.0,67.0,52.0,10.0,600.0,43.0,43.0,16.0,56.0
+140,THE LAST BREATH,Legendary,Any,Kinetic,Auto Rifle,21.0,42.0,67.0,51.0,67.0,52.0,10.0,600.0,43.0,43.0,16.0,56.0
+141,TIGERSPITE,Legendary,Any,Kinetic,Auto Rifle,29.0,62.0,40.0,40.0,44.0,49.0,10.0,450.0,33.0,41.0,16.0,68.0
+364,AGE-OLD BOND,Legendary,Any,Energy,Auto Rifle,33.0,82.0,38.0,34.0,61.0,49.0,10.0,360.0,32.0,30.0,16.0,79.0
+365,AMMIT AR2,Legendary,Any,Energy,Auto Rifle,29.0,61.0,46.0,38.0,44.0,48.0,20.0,450.0,32.0,45.0,17.0,71.0
+366,ARC LOGIC,Legendary,Any,Energy,Auto Rifle,21.0,38.0,64.0,56.0,65.0,49.0,10.0,600.0,41.0,34.0,16.0,47.0
+367,ARCTIC HAZE,Legendary,Any,Energy,Auto Rifle,18.0,24.0,42.0,48.0,75.0,50.0,10.0,720.0,51.0,48.0,16.0,42.0
+368,CHRYSURA MELO,Legendary,Any,Energy,Auto Rifle,33.0,73.0,30.0,30.0,58.0,54.0,10.0,360.0,32.0,25.0,16.0,86.0
+369,COME TO PASS,Legendary,Any,Energy,Auto Rifle,33.0,78.0,31.0,34.0,54.0,54.0,9.0,360.0,32.0,26.0,16.0,83.0
+370,DARK DECIDER,Legendary,Any,Energy,Auto Rifle,18.0,25.0,39.0,46.0,72.0,54.0,10.0,720.0,50.0,49.0,16.0,43.0
+371,GALLIARD-42,Legendary,Any,Energy,Auto Rifle,21.0,35.0,51.0,41.0,60.0,50.0,10.0,600.0,44.0,44.0,16.0,70.0
+372,GALLIARD-42 XN7568,Legendary,Any,Energy,Auto Rifle,21.0,35.0,51.0,41.0,60.0,50.0,10.0,600.0,44.0,44.0,16.0,70.0
+373,GNAWING HUNGER,Legendary,Any,Energy,Auto Rifle,21.0,48.0,63.0,57.0,65.0,55.0,10.0,600.0,43.0,43.0,16.0,54.0
+374,HOLLOW EARTH,Legendary,Any,Energy,Auto Rifle,18.0,24.0,40.0,47.0,76.0,48.0,10.0,720.0,51.0,49.0,16.0,58.0
+375,JIANGSHI AR4,Legendary,Any,Energy,Auto Rifle,29.0,50.0,47.0,47.0,40.0,50.0,10.0,450.0,33.0,44.0,16.0,60.0
+376,KIBOU AR3,Legendary,Any,Energy,Auto Rifle,29.0,62.0,40.0,42.0,45.0,50.0,10.0,450.0,31.0,43.0,16.0,80.0
+377,MARTYR'S MAKE,Legendary,Any,Energy,Auto Rifle,21.0,46.0,48.0,41.0,64.0,52.0,10.0,600.0,49.0,38.0,16.0,78.0
+378,MEDLEY-45,Legendary,Any,Energy,Auto Rifle,21.0,49.0,47.0,34.0,62.0,53.0,10.0,600.0,45.0,41.0,16.0,73.0
+379,MISFIT,Legendary,Any,Energy,Auto Rifle,18.0,28.0,41.0,48.0,76.0,50.0,10.0,720.0,51.0,53.0,16.0,54.0
+380,NULL CALAMITY 9,Legendary,Any,Energy,Auto Rifle,21.0,49.0,65.0,55.0,65.0,58.0,10.0,600.0,44.0,29.0,16.0,51.0
+381,PERSEVERANCE,Legendary,Any,Energy,Auto Rifle,18.0,28.0,38.0,46.0,66.0,52.0,10.0,720.0,52.0,49.0,16.0,56.0
+382,POSITIVE OUTLOOK,Legendary,Any,Energy,Auto Rifle,29.0,57.0,39.0,43.0,26.0,59.0,10.0,450.0,33.0,42.0,16.0,66.0
+383,PROSECUTOR,Legendary,Any,Energy,Auto Rifle,29.0,60.0,46.0,45.0,34.0,60.0,10.0,450.0,32.0,42.0,16.0,69.0
+384,RECKLESS ORACLE,Legendary,Any,Energy,Auto Rifle,18.0,26.0,42.0,55.0,75.0,54.0,10.0,720.0,51.0,56.0,16.0,59.0
+385,RESTORATION VIII,Legendary,Any,Energy,Auto Rifle,21.0,40.0,50.0,40.0,60.0,50.0,10.0,600.0,47.0,31.0,16.0,77.0
+386,SHADOW PRICE,Legendary,Any,Energy,Auto Rifle,29.0,63.0,43.0,47.0,43.0,48.0,21.0,450.0,33.0,45.0,16.0,79.0
+387,SHADOW PRICE (ADEPT),Legendary,Any,Energy,Auto Rifle,29.0,63.0,43.0,47.0,43.0,48.0,21.0,450.0,33.0,45.0,16.0,79.0
+388,SOLEMN HYMN,Legendary,Any,Energy,Auto Rifle,21.0,48.0,50.0,40.0,58.0,54.0,10.0,600.0,44.0,33.0,16.0,60.0
+389,SORROW'S VERSE,Legendary,Any,Energy,Auto Rifle,21.0,44.0,64.0,58.0,68.0,49.0,10.0,600.0,41.0,34.0,16.0,53.0
+390,SWEET SORROW,Legendary,Any,Energy,Auto Rifle,18.0,23.0,42.0,47.0,81.0,53.0,12.0,720.0,52.0,54.0,17.0,57.0
+391,THE NUMBER,Legendary,Any,Energy,Auto Rifle,29.0,50.0,36.0,36.0,44.0,60.0,10.0,450.0,33.0,40.0,16.0,70.0
+392,THE NUMBER,Legendary,Any,Energy,Auto Rifle,29.0,50.0,36.0,36.0,44.0,60.0,10.0,450.0,33.0,40.0,20.0,70.0
+393,THE RINGING NAIL,Legendary,Any,Energy,Auto Rifle,29.0,61.0,46.0,47.0,37.0,50.0,10.0,450.0,32.0,46.0,16.0,69.0
+394,THE SUMMONER,Legendary,Any,Energy,Auto Rifle,21.0,40.0,70.0,56.0,62.0,51.0,24.0,600.0,42.0,41.0,16.0,57.0
+395,THE SUMMONER (ADEPT),Legendary,Any,Energy,Auto Rifle,21.0,40.0,70.0,56.0,62.0,51.0,24.0,600.0,42.0,41.0,16.0,57.0
+396,URIEL'S GIFT,Legendary,Any,Energy,Auto Rifle,29.0,57.0,40.0,40.0,44.0,52.0,10.0,450.0,33.0,39.0,16.0,71.0
+397,URIEL'S GIFT,Legendary,Any,Energy,Auto Rifle,29.0,57.0,40.0,40.0,44.0,52.0,10.0,450.0,33.0,39.0,16.0,71.0
+398,VALAKADYN,Legendary,Any,Energy,Auto Rifle,18.0,28.0,38.0,49.0,66.0,49.0,10.0,720.0,53.0,47.0,16.0,56.0
+399,VALAKADYN,Legendary,Any,Energy,Auto Rifle,18.0,28.0,38.0,49.0,66.0,49.0,10.0,720.0,53.0,47.0,16.0,56.0
+895,CUBOID ARU,Rare,Any,Kinetic,Auto Rifle,29.0,54.0,33.0,35.0,42.0,50.0,,450.0,31.0,38.0,16.0,75.0
+896,CUBOID ARU,Rare,Any,Kinetic,Auto Rifle,29.0,54.0,33.0,35.0,42.0,50.0,,450.0,31.0,38.0,16.0,75.0
+897,LIONHEART,Rare,Any,Kinetic,Auto Rifle,21.0,44.0,62.0,54.0,65.0,50.0,,600.0,42.0,39.0,16.0,55.0
+898,REBUKE AX-GL,Rare,Any,Kinetic,Auto Rifle,21.0,44.0,57.0,50.0,56.0,40.0,,600.0,41.0,44.0,16.0,60.0
+899,ROS LYSIS II,Rare,Any,Kinetic,Auto Rifle,21.0,40.0,57.0,50.0,70.0,47.0,,600.0,42.0,34.0,16.0,47.0
+900,ROS LYSIS II,Rare,Any,Kinetic,Auto Rifle,21.0,40.0,57.0,50.0,70.0,47.0,,600.0,42.0,34.0,16.0,47.0
+927,REFRAIN-23,Rare,Any,Energy,Auto Rifle,21.0,38.0,50.0,30.0,62.0,45.0,,600.0,47.0,36.0,16.0,73.0
+928,REFRAIN-23,Rare,Any,Energy,Auto Rifle,21.0,38.0,50.0,30.0,62.0,45.0,,600.0,47.0,36.0,16.0,73.0
+929,SAND WASP-3AU,Rare,Any,Energy,Auto Rifle,18.0,28.0,40.0,45.0,70.0,47.0,,720.0,48.0,48.0,16.0,51.0
+930,SAND WASP-3AU,Rare,Any,Energy,Auto Rifle,18.0,28.0,40.0,45.0,70.0,47.0,,720.0,48.0,48.0,16.0,51.0
+931,YELLOWJACKET-3AU,Rare,Any,Energy,Auto Rifle,18.0,28.0,38.0,49.0,66.0,49.0,,720.0,52.0,47.0,16.0,56.0
+989,CYDONIA-AR1,Common,Any,Kinetic,Auto Rifle,21.0,36.0,60.0,51.0,59.0,42.0,,600.0,40.0,33.0,16.0,44.0
+990,HOME AGAIN,Common,Any,Kinetic,Auto Rifle,18.0,17.0,33.0,42.0,66.0,44.0,,720.0,48.0,45.0,16.0,73.0
+991,SUROS THROWBACK,Common,Any,Kinetic,Auto Rifle,29.0,48.0,34.0,35.0,28.0,42.0,,450.0,31.0,33.0,16.0,65.0
+1002,JIANGSHI AR1,Common,Any,Energy,Auto Rifle,29.0,48.0,35.0,34.0,28.0,44.0,,450.0,30.0,33.0,16.0,65.0
+1026,KHVOSTOV 7G-02,Basic,Any,Kinetic,Auto Rifle,21.0,12.0,32.0,52.0,48.0,57.0,,600.0,40.0,30.0,15.0,70.0
+1027,ORIGIN STORY,Basic,Any,Kinetic,Auto Rifle,29.0,57.0,37.0,41.0,35.0,47.0,,450.0,32.0,40.0,16.0,73.0
+1028,PARIAH,Basic,Any,Kinetic,Auto Rifle,29.0,50.0,35.0,36.0,26.0,46.0,,450.0,31.0,35.0,16.0,64.0
+1043,DUALITY,Exotic,Any,Kinetic,Auto Rifle,33.0,100.0,23.0,24.0,80.0,0.0,,360.0,39.0,30.0,24.0,100.0
+1044,TOMMY'S MATCHBOOK,Exotic,Any,Kinetic,Auto Rifle,33.0,100.0,23.0,24.0,80.0,0.0,,360.0,39.0,30.0,24.0,100.0
+1045,WITHERHOARD,Exotic,Any,Kinetic,Auto Rifle,33.0,100.0,23.0,24.0,80.0,0.0,,360.0,39.0,30.0,24.0,100.0
+1062,BRAYTECH WEREWOLF,Legendary,Any,Kinetic,Auto Rifle,29.0,69.0,39.0,42.0,47.0,55.0,15.0,450.0,34.0,41.0,16.0,74.0
+1063,HORROR STORY,Legendary,Any,Kinetic,Auto Rifle,29.0,57.0,37.0,41.0,35.0,47.0,10.0,450.0,32.0,40.0,16.0,73.0
+1091,ARC LOGIC,Legendary,Any,Energy,Auto Rifle,21.0,38.0,64.0,56.0,65.0,49.0,,600.0,41.0,34.0,16.0,47.0
+1092,ARCTIC HAZE,Legendary,Any,Energy,Auto Rifle,18.0,24.0,42.0,48.0,75.0,50.0,,720.0,51.0,48.0,16.0,42.0
