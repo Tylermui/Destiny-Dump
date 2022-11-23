@@ -66,7 +66,11 @@ def getWeaponStats():
         tempDict[tds[0].text.strip()] = tds[-1].text.strip()
 
     writeToFileArray.append(tempDict)
-
+    tempDict = {}
+    
   weaponStatsFile.write(str(writeToFileArray))
 
   return
+
+# getWeaponLinks()
+getWeaponStats()
