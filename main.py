@@ -26,6 +26,13 @@ def getWeaponLinks():
 
   f.close()
 
+  lines = open('weaponLinks.txt', 'r').readlines()
+  lines_set = set(lines)
+  out = open('weaponLinks.txt', 'a')
+  for line in lines_set:
+    out.write(line)
+  lines.close()
+
   return
 
 
@@ -35,18 +42,21 @@ def getWeaponStats():
   links = weaponLinksFile.readlines()
 
   weaponStatsFile = open('weaponStats.txt', 'a')
+  weaponStatsFile.write("[\n")
 
-  writeToFileArray = []
   tempDict = {}
   counter = 0
 
   for link in links:
 
-    print(counter)
+    print(str(counter) + ' -----------------------------------------------------------------------------')
     counter += 1
 
     response = requests.get(link.strip())
     soup = BeautifulSoup(response.content, 'lxml')
+
+    if soup.find_all('span', class_="weapon-type")[0].text.strip().split('/')[2].strip() == 'Weapon Ornament':
+      continue
 
     tempDict['Name'] = soup.find_all('h2')[0].text.strip()
     tempDict['Rarity'] = soup.find_all('span', class_="weapon-type")[0].text.strip().split('/')[0].strip()
@@ -67,15 +77,17 @@ def getWeaponStats():
 
     perksArray = []
     for img in soup.find_all("img", {"class": "mod"}):
-      perksArray.append(img['alt'])
+      if 'Ornament' not in img.get('alt') and img.get('alt').isascii():
+        perksArray.append(img.get('alt'))
     
     tempDict['Perks'] = perksArray
     perksArray = []
 
-    writeToFileArray.append(tempDict)
+    print(str(tempDict))
+    weaponStatsFile.write(str(tempDict) + ",\n")
     tempDict = {}
     
-  weaponStatsFile.write(str(writeToFileArray))
+  weaponStatsFile.write("]")
 
   return
 
