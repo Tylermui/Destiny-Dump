@@ -1,14 +1,18 @@
+import java.io.FileReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
+import com.opencsv.CSVReader;
 
 public class DBMS {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
 
     Scanner sc = new Scanner(System.in);
+    FileReader fileReader = new FileReader("\\Users\\dyale\\OneDrive\\Desktop\\final project cs354\\Destiny-Dump\\weaponStatsWithPerks.csv");
+    CSVReader csvReader = new CSVReader(fileReader);
     Connection connection = null;
 
     try {
@@ -19,13 +23,37 @@ public class DBMS {
 
       // Add tables
       createTables(statement);
+      String[] nextLine;
+      csvReader.readNext();
 
+      int weapon_id = 0;
       
+      while((nextLine = csvReader.readNext()) != null) {
+
+        System.out.println(nextLine[0]);
+        String Name = "";
+        String Rarity = "";
+        String Class = "";
+        String Element = "";
+        String Type = "";
+
+        Name = nextLine[0];
+        Rarity = nextLine[1];
+        Class = nextLine[2];
+        Element = nextLine[3];
+        Type = nextLine[4];
+
+        //statement.executeUpdate("insert into WEAPONS values( )");
+
+        weapon_id++;
+      }
+
 
     } catch (SQLException e) {
       System.err.println(e.getMessage());
     } finally {
       sc.close();
+      csvReader.close();
     }
   }
 
