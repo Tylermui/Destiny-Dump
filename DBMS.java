@@ -20,6 +20,8 @@ public class DBMS {
       // Add tables
       createTables(statement);
 
+      
+
     } catch (SQLException e) {
       System.err.println(e.getMessage());
     } finally {
