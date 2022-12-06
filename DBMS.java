@@ -6,12 +6,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 import com.opencsv.CSVReader;
+import java.util.*;
 
 public class DBMS {
   public static void main(String[] args) throws Exception {
 
     Scanner sc = new Scanner(System.in);
-    FileReader fileReader = new FileReader("\\Users\\dyale\\OneDrive\\Desktop\\final project cs354\\Destiny-Dump\\weaponStatsWithPerks.csv");
+    FileReader fileReader = new FileReader("/Users/tyler/School work/CS354/Destiny-Dump/weaponStatsWithPerks.csv");
     CSVReader csvReader = new CSVReader(fileReader);
     Connection connection = null;
 
@@ -27,28 +28,27 @@ public class DBMS {
       csvReader.readNext();
 
       int weapon_id = 0;
-      
-      while((nextLine = csvReader.readNext()) != null) {
-
-        System.out.println(nextLine[0]);
-        String Name = "";
-        String Rarity = "";
-        String Class = "";
-        String Element = "";
-        String Type = "";
-
-        Name = nextLine[0];
-        Rarity = nextLine[1];
-        Class = nextLine[2];
-        Element = nextLine[3];
-        Type = nextLine[4];
-
-        //statement.executeUpdate("insert into WEAPONS values( )");
+      while((nextLine = csvReader.readNext()) != null) { //reading and setting WEAPONS table
+        String Name = nextLine[0];
+        String Rarity = nextLine[1];
+        String Class = nextLine[2];
+        String Element = nextLine[3];
+        String Type = nextLine[4];
+        statement.executeUpdate("insert into WEAPONS values(" + weapon_id + ", '" + Name + "','"  + Rarity + "','" +  Class + "','" + Element + "','"  + Type + "')");
 
         weapon_id++;
       }
-
-
+      
+      ResultSet rs = statement.executeQuery("select * from WEAPONS");
+      while(rs.next())  // read the result set
+      {
+        System.out.println("WeaponID = " + rs.getInt("weapon_id"));
+        System.out.println("Name = " + rs.getString("Name"));
+        System.out.println("Rarity = " + rs.getString("Rarity"));
+        System.out.println("Class = " + rs.getString("Class"));
+        System.out.println("Element = " + rs.getString("Element"));
+        System.out.println("Type = " + rs.getString("Type"));
+      }
     } catch (SQLException e) {
       System.err.println(e.getMessage());
     } finally {
