@@ -1,0 +1,2 @@
+\\Users\\dyale\\OneDrive\\Desktop\\final project cs354\\Destiny-Dump\\weaponStatsWithPerks.csv
+/Users/tyler/School work/CS354/Destiny-Dump/weaponStatsWithPerks.csv
