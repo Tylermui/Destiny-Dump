@@ -27,13 +27,13 @@ public class DBMS {
       String[] nextLine;
       csvReader.readNext();
 
-      int weapon_id = 0; // FIXME: change this to be per row
       while ((nextLine = csvReader.readNext()) != null) { // reading and setting WEAPONS table
-        String Name = nextLine[0];
-        String Rarity = nextLine[1];
-        String Class = nextLine[2];
-        String Element = nextLine[3];
-        String Type = nextLine[4];
+        int weapon_id = Integer.valueOf(nextLine[0]);
+        String Name = nextLine[1];
+        String Rarity = nextLine[2];
+        String Class = nextLine[3];
+        String Element = nextLine[4];
+        String Type = nextLine[5];
         statement.executeUpdate("insert into WEAPONS values(" + weapon_id + ", '" + Name + "','" + Rarity + "','"
             + Class + "','" + Element + "','" + Type + "')");
 
