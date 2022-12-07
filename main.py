@@ -41,7 +41,7 @@ def getWeaponStats():
   weaponLinksFile = open('weaponLinks.txt', 'r')
   links = weaponLinksFile.readlines()
 
-  weaponStatsFile = open('weaponStats.txt', 'a')
+  weaponStatsFile = open('weaponStats-Dec6.txt', 'a')
   weaponStatsFile.write("[\n")
 
   tempDict = {}
@@ -55,9 +55,11 @@ def getWeaponStats():
     response = requests.get(link.strip())
     soup = BeautifulSoup(response.content, 'lxml')
 
-    if soup.find_all('span', class_="weapon-type")[0].text.strip().split('/')[2].strip() == 'Weapon Ornament':
-      continue
+    if len(soup.find_all('span', class_="weapon-type")[0].text.strip().split('/')) >= 2:
+      if soup.find_all('span', class_="weapon-type")[0].text.strip().split('/')[2].strip() == 'Weapon Ornament':
+        continue
 
+    tempDict['weapon_id'] = link.split('items/')[1].strip()
     tempDict['Name'] = soup.find_all('h2')[0].text.strip()
     tempDict['Rarity'] = soup.find_all('span', class_="weapon-type")[0].text.strip().split('/')[0].strip()
 
