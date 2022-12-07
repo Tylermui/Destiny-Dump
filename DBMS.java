@@ -36,8 +36,6 @@ public class DBMS {
         String Type = nextLine[5];
         statement.executeUpdate("insert into WEAPONS values(" + weapon_id + ", '" + Name + "','" + Rarity + "','"
             + Class + "','" + Element + "','" + Type + "')");
-
-        weapon_id++;
       }
 
       ResultSet rs = statement.executeQuery("select * from WEAPONS");
