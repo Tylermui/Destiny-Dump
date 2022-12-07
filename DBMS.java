@@ -12,7 +12,7 @@ public class DBMS {
   public static void main(String[] args) throws Exception {
 
     Scanner sc = new Scanner(System.in);
-    FileReader fileReader = new FileReader("/Users/tyler/School work/CS354/Destiny-Dump/weaponStatsWithPerks.csv");
+    FileReader fileReader = new FileReader("./weaponStatsWithPerks.csv");
     CSVReader csvReader = new CSVReader(fileReader);
     Connection connection = null;
 
@@ -27,20 +27,21 @@ public class DBMS {
       String[] nextLine;
       csvReader.readNext();
 
-      int weapon_id = 0;
-      while((nextLine = csvReader.readNext()) != null) { //reading and setting WEAPONS table
+      int weapon_id = 0; // FIXME: change this to be per row
+      while ((nextLine = csvReader.readNext()) != null) { // reading and setting WEAPONS table
         String Name = nextLine[0];
         String Rarity = nextLine[1];
         String Class = nextLine[2];
         String Element = nextLine[3];
         String Type = nextLine[4];
-        statement.executeUpdate("insert into WEAPONS values(" + weapon_id + ", '" + Name + "','"  + Rarity + "','" +  Class + "','" + Element + "','"  + Type + "')");
+        statement.executeUpdate("insert into WEAPONS values(" + weapon_id + ", '" + Name + "','" + Rarity + "','"
+            + Class + "','" + Element + "','" + Type + "')");
 
         weapon_id++;
       }
-      
+
       ResultSet rs = statement.executeQuery("select * from WEAPONS");
-      while(rs.next())  // read the result set
+      while (rs.next()) // read the result set
       {
         System.out.println("WeaponID = " + rs.getInt("weapon_id"));
         System.out.println("Name = " + rs.getString("Name"));
