@@ -12,7 +12,7 @@ public class DBMS {
   public static void main(String[] args) throws Exception {
 
     Scanner sc = new Scanner(System.in);
-    FileReader fileReader = new FileReader("./weaponStatsWithPerks.csv");
+    FileReader fileReader = new FileReader("./weaponStats-Dec6.csv");
     CSVReader csvReader = new CSVReader(fileReader);
     Connection connection = null;
 
@@ -25,29 +25,29 @@ public class DBMS {
       // Add tables
       createTables(statement);
       String[] nextLine;
-      csvReader.readNext();
-
+      nextLine = csvReader.readNext();
       while ((nextLine = csvReader.readNext()) != null) { // reading and setting WEAPONS table
-        int weapon_id = Integer.valueOf(nextLine[0]);
+        String weapon_id = nextLine[0];
         String Name = nextLine[1];
         String Rarity = nextLine[2];
         String Class = nextLine[3];
         String Element = nextLine[4];
         String Type = nextLine[5];
-        statement.executeUpdate("insert into WEAPONS values(" + weapon_id + ", '" + Name + "','" + Rarity + "','"
+        statement.executeUpdate("insert into WEAPONS values(" + weapon_id + ", '" +
+            Name + "','" + Rarity + "','"
             + Class + "','" + Element + "','" + Type + "')");
       }
 
-      ResultSet rs = statement.executeQuery("select * from WEAPONS");
-      while (rs.next()) // read the result set
-      {
-        System.out.println("WeaponID = " + rs.getInt("weapon_id"));
-        System.out.println("Name = " + rs.getString("Name"));
-        System.out.println("Rarity = " + rs.getString("Rarity"));
-        System.out.println("Class = " + rs.getString("Class"));
-        System.out.println("Element = " + rs.getString("Element"));
-        System.out.println("Type = " + rs.getString("Type"));
-      }
+      // ResultSet rs = statement.executeQuery("select * from WEAPONS");
+      // while (rs.next()) // read the result set
+      // {
+      // System.out.println("WeaponID = " + rs.getInt("weapon_id"));
+      // System.out.println("Name = " + rs.getString("Name"));
+      // System.out.println("Rarity = " + rs.getString("Rarity"));
+      // System.out.println("Class = " + rs.getString("Class"));
+      // System.out.println("Element = " + rs.getString("Element"));
+      // System.out.println("Type = " + rs.getString("Type"));
+      // }
     } catch (SQLException e) {
       System.err.println(e.getMessage());
     } finally {
@@ -113,7 +113,7 @@ public class DBMS {
           FOREIGN KEY (weapon_id) REFERENCES WEAPONS(weapon_id)
             ON UPDATE CASCADE
             ON DELETE CASCADE
-        )
+        );
         """;
 
     try {
