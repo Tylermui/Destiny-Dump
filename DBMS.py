@@ -2,10 +2,15 @@ import sqlite3
 import json
 import pandas as pd
 
+"""
+this file creates a database called destinyWeapons.db
+"""
+
 def create_connection(db_file):
   conn = None
   try:
     conn = sqlite3.connect(db_file)
+    conn.execute('PRAGMA foreign_keys = ON;') # FIXME this needs to be enabled with each connection
     return conn
   except Error as e:
     print(e)
@@ -113,37 +118,34 @@ def main():
   weapons_df = pd.read_json('weaponStats-Dec6.json', orient='record')
         
   if conn is not None:
+    print('Tables being created...')
     create_table(conn, createWeaponsTable)
     create_table(conn, createStatsTable)
     create_table(conn, createPerksTable)
-    
-    try:
-      cur = conn.cursor()
-      cur.execute("PRAGMA foreign_keys=ON;");
-      conn.commit()
-      print('Foreign keys are enabled')
-    except Error as e:
-      print(e)
-    
+    print('Tables successfully created...')
+    print('Inserting data into WEAPONS table...')
     # insert weapons table data
     for index, row in weapons_df.iterrows():
       record = (row['weapon_id'], row['Name'], row['Rarity'], row['Class'], row['Element'], row['Type'])
       insert_into_weapons(conn, record)
-    
+    print('Successfully inserted data into WEAPONS table...')
+    print('Inserting data into PERKS table...')
     # insert weapon perk data
     for index, row in weapons_df.iterrows():
       id = row['weapon_id']
       for perk in [*set(row['Perks'])]: # use a set in case of duplicate perks so it doesn't crash
         record = (id, perk)
         insert_into_perks(conn, record)
-        
+    print('Successfully inserted data into PERKS table...')    
+    print('Inserting data into STATS table...')
     # insert weapon stat data
     for index, row in weapons_df.iterrows():
       record = (row['weapon_id'], row['Impact'], row['Range'], row['Shield Duration'], row['Handling'], row['Reload Speed'], row['Aim Assistance'], row['Inventory Size'], row['Airborne Effectiveness'], row['Rounds Per Minute'], row['Charge Time'], row['Magazine'], row['Stability'], row['Zoom'], row['Recoil'], row['Accuracy'], row['Draw Time'], row['Velocity'], row['Blast Radius'], row['Swing Speed'], row['Guard Efficiency'], row['Guard Resistance'], row['Charge Rate'], row['Ammo Capacity'])
       insert_into_stats(conn, record)
-    
-    print('success')
-    
+      
+    print('Successfully inserted data into STATS table...')
+    conn.commit()
+    print('Database successfully created')
   else:
     print("Error! cannot create the database connection")
 

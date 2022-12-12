@@ -3,6 +3,10 @@ import inquirer
 import re
 import sys
 
+"""
+this file lets you interact with the destinyWeapons database
+"""
+
 WEAPONS_COLS = ['weapon_id', 'Name', 'Rarity', 'Class', 'Element', 'Type']
 STATS_COLS = ['Impact', 'Range', 'Shield_Duration', 'Handling', 'Reload_Speed', 'Aim_Assistance', 'Inventory_Size', 'Airborne_Effectiveness', 'Rounds_Per_Min', 'Charge_Time', 'Magazine', 'Stability', 'Zoom', 'Recoil', 'Accuracy', 'Draw_Time', 'Velocity', 'Blast_Radius', 'Swing_Speed', 'Guard_Efficiency', 'Guard_Resistance', 'Charge_Rate', 'Ammo_Capacity']
 
@@ -12,6 +16,7 @@ def view_all_weapons(conn):
     cur.execute("SELECT Name FROM WEAPONS")
     rows = cur.fetchall()
     if len(rows) != 0:
+      print('All current weapons in database:\n') 
       for row in rows: # row is a tuple
         print(row[0])
       print() # for buffer
@@ -40,6 +45,7 @@ def view_all_types(conn):
     cur.execute("SELECT DISTINCT Type FROM WEAPONS")
     rows = cur.fetchall()
     if len(rows) != 0:
+      print('All current weapon types in database:\n')
       for row in rows:
         print(row[0])
       print() # for buffer
@@ -199,7 +205,7 @@ def update_weapon(conn, weapon_name):
           conn.commit()
       else:
         new_value = input(f'New value for {column_to_update} (VARCHAR): ')
-        cur.execute(f"UPDATE WEAPONS SET {column_to_update} = '{str(new_value)} WHERE weapon_id IN (SELECT weapon_id FROM WEAPONS WHERE Name = '{weapon_name}');'")
+        cur.execute(f"UPDATE WEAPONS SET {column_to_update} = '{str(new_value)}' WHERE weapon_id IN (SELECT weapon_id FROM WEAPONS WHERE Name = '{weapon_name}');'")
         if cur.rowcount < 1:
           print(f"\nUnable to update {column_to_update} = {new_value} for {weapon_name} in table WEAPONS.\n")
         else:
