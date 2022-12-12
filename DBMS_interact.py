@@ -181,7 +181,11 @@ def update_weapon(conn, weapon_name):
   answers = inquirer.prompt(questions)
   if answers['updateWeaponChoice'] == 'WEAPONS':
     # update from weapons table
-    column_to_update = input('Which column do you wish to update? ' + ' '.join(WEAPONS_COLS) + ': ')
+    print('List of columns you can update: ')
+    for column in WEAPONS_COLS:
+      print(column)
+    print() # buffer
+    column_to_update = input('Which column do you wish to update? ')
     try:
       cur = conn.cursor()
       # can be numeric though
@@ -205,7 +209,11 @@ def update_weapon(conn, weapon_name):
       print(e)
   elif answers['updateWeaponChoice'] == 'STATS':
     # update from stats table
-    column_to_update = input('Which column do you wish to update? ' + ' '.join(STATS_COLS) + ': ')
+    print('List of columns you can update: ')
+    for column in STATS_COLS:
+      print(column)
+    print() # buffer
+    column_to_update = input('Which column do you wish to update? ')
     new_value = input(f'New value for {column_to_update} (INTEGER): ')
     try:
       cur = conn.cursor()
