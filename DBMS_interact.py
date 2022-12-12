@@ -111,7 +111,7 @@ def insert_weapon(conn):
     if q == 'weapon_id':
       answer = input(q + ' (INTEGER): ')
     else:
-      answer = input(q + ' (VARCHAR):')
+      answer = input(q + ' (VARCHAR): ')
     if q == 'Name':
       w_answers[q] = answer.upper()
     else:

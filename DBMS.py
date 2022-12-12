@@ -117,6 +117,14 @@ def main():
     create_table(conn, createStatsTable)
     create_table(conn, createPerksTable)
     
+    try:
+      cur = conn.cursor()
+      cur.execute("PRAGMA foreign_keys=ON;");
+      conn.commit()
+      print('Foreign keys are enabled')
+    except Error as e:
+      print(e)
+    
     # insert weapons table data
     for index, row in weapons_df.iterrows():
       record = (row['weapon_id'], row['Name'], row['Rarity'], row['Class'], row['Element'], row['Type'])
