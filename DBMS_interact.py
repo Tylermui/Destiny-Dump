@@ -158,6 +158,22 @@ def insert_weapon(conn):
   except Error as e:
     print(e)
 
+def list_weapon_for_stat(conn, stat):
+  try:
+    cur = conn.cursor()
+    cur.execute(f"SELECT WEAPONS.Name, STATS.{stat} FROM WEAPONS INNER JOIN STATS ON WEAPONS.weapon_id = STATS.weapon_id ORDER BY STATS.{stat} DESC LIMIT 10;")
+    rows = cur.fetchall()
+    if len(rows) != 0:
+      # then we have a result
+      print() # buffer
+      for i, row in enumerate(rows):
+        print(str(i + 1) + '. ' + row[0] + ' - ' + str(row[1])) # row is a tuple
+      print() # buffer
+    else:
+      print('No weapons found.')
+  except Error as e:
+    print(e)
+
 def update_weapon(conn, weapon_name):
   questions = [
     inquirer.List('updateWeaponChoice', message=f'Select which table to update for {weapon_name}', choices=['WEAPONS', 'STATS', 'PERKS'])
@@ -239,7 +255,7 @@ def update_weapon(conn, weapon_name):
         print(f'No perks found for {weapon_name}')
     except Error as e:
       print(e)
-    
+
 def restartOption():
     questions = [
         inquirer.List(
@@ -256,7 +272,7 @@ def restartOption():
 
 def menu():
   questions = [
-      inquirer.List('initialChoice', message="Welcome to Destiny Dump! Select from one of the options below", choices=['Select Weapon', 'Update Weapon', 'Delete Weapon', 'Insert Weapon', 'View All Weapons', 'View All Weapon Types', 'View All Weapons of Specific Type'])
+      inquirer.List('initialChoice', message="Welcome to Destiny Dump! Select from one of the options below", choices=['Select Weapon', 'Update Weapon', 'Delete Weapon', 'Insert Weapon', 'View All Weapons', 'View All Weapon Types', 'View All Weapons of Specific Type', 'List top 10 weapons with best value for selected stat'])
     ]
   answers = inquirer.prompt(questions)
   
@@ -291,6 +307,14 @@ def menu():
     # displays all the weapon types that are in the database
     w_type = input('What type of weapon do you wish to view? ')
     view_all_weapons_of_type(conn, w_type)
+    restartOption()
+  elif answers['initialChoice'] == 'List top 10 weapons with best value for selected stat':
+    print() # buffer
+    # print stats
+    for stat in STATS_COLS[1:]:
+      print(stat)
+    s_stat = input('\nWhich stat would you like to view the top 10 weapons for? ')
+    list_weapon_for_stat(conn, s_stat)
     restartOption()
 
 if __name__ == '__main__':
