@@ -4,7 +4,7 @@ Run the program with `python DBMS.py` then once it successfully creates the data
 
 ### View Presentation
 
-[PDF](./Database%20Final%20Project.pdf)
+[PowerPoint PDF](./Database%20Final%20Project.pdf)
 
 # Bug Help References
 
